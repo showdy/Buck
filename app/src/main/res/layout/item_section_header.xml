@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/typeName"
+            android:layout_marginStart="@dimen/dp_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="精选系列" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/checkMore"
+            android:layout_marginEnd="@dimen/dp_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="更多精彩" />
+
+</RelativeLayout>
